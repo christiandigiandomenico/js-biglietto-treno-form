@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietto Treno Form</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+    <div class="container">
+
+        <div class="inner-container">
+
+            <div class="nameandsurname">
+
+                <p>Nome e Cognome</p>
+
+                <div class="namesurnamecontainer">
+
+                    <input type="text" id="passengername">
+
+                </div>
+
+            </div>
+
+            <div class="distance">
+
+                <p>Km da percorrere</p>
+
+                <div class="distancecontainer">
+
+                    <input type="number" id="distancetraveled">
+
+                </div>
+
+            </div>
+
+            <div class="age">
+
+                <p>Fascia d'età</p>
+
+                <div class="agecontainer">
+
+                    <input type="number" id="passengerage">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button id="contentbutton">Genera</button>
+
+            <button id="contentcancel">Annulla</button>
+        </div>
+
+    </div>
+
+    <h1>IL TUO BIGLIETTO</h1>
+
+    <div class="container_second">
+
+        <h2>DETTAGLIO PASSEGGERI</h2>
+
+        <div class="containerticket">
+
+            <div class="passengernamecontainer">
+                <h3>Nome passeggero</h3>
+
+                <div id="passengername">
+
+
+
+                </div>
+            </div>
+
+            <div class="passengerdatacontainer">
+
+                <div class="discountticket">
+                    <strong>Offerta</strong>
+                </div>
+
+                <div id="discountticketactive">
+
+                </div>
+
+            </div>
+
+            <div class="passengerwagoncontainer">
+
+                <div class="wagonticket">
+                    <strong>Carrozza</strong>
+                </div>
+
+                <div id="passengerwagonactive">
+
+                </div>
+
+            </div>
+
+            <div class="passengercpcodecontainer">
+
+                <div class="cpcode">
+                    <strong>Codice CP</strong>
+                </div>
+
+                <div id="cpcodeactive">
+
+                </div>
+
+            </div>
+
+            <div class="passengercostcontainer">
+
+                <div class="passengercost">
+                    <strong>Costo biglietto</strong>
+                </div>
+
+                <div id="passengercostactive">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
