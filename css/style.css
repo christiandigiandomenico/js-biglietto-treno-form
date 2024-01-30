@@ -89,6 +89,21 @@ h3 {
     color: black;
 }
 
+#passengernamefinal,
+#passengercostactive,
+#discountticketactive,
+#passengerwagonactive,
+#cpcodeactive {
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+#discountticketactive {
+    font-size: 12px;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
