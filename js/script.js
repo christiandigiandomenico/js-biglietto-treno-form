@@ -35,7 +35,7 @@ buttonElement.addEventListener("click", function () {
 
     } else {
 
-        alert("Età non riconosciuta")
+        alert("Dati non corretti")
 
     }
 
